@@ -9,6 +9,9 @@ React-Select
 
 A Select control built with and for [React](http://facebook.github.io/react/index.html). Initially built for use in [KeystoneJS](http://www.keystonejs.com).
 
+## This repo was forked to address an issue with Safari option selecting behavior.
+Pressing **Tab** should select the option but keep focus on the element.  The next **Tab** press would focus on the next element.  This same behavior was applied to the **Enter** button. 
+
 
 ## New version 1.0.0-rc
 
