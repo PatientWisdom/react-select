@@ -393,6 +393,7 @@ class Select extends React.Component {
 			return;
 			case 13: // enter
 				if (!this.state.isOpen) return;
+        event.preventDefault();
 				event.stopPropagation();
 				this.selectFocusedOption();
 			break;
